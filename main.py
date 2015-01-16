@@ -36,7 +36,7 @@ def posorneg():
 		return -1;
 	return 1;
 
-def RGB_2_HSV(RGB):
+def RGB_2_HSV(RGB):# RGB-HSL code taken from http://stackoverflow.com/a/24153899/2009336
     ''' Converts an integer RGB tuple (value range from 0 to 255) to an HSV tuple '''
 
     # Unpack the tuple for readability
